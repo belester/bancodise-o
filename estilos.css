@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	front-family:sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background: #DEDEDE;
+	display: block;
+	min-height: 100vh;
+}
+
+	form{
+		margin: 0 auto;
+		width: 90%;
+		max-width: 90%;
+		//background: #F3F3F3;
+		padding-left:15%;
+		padding-right: 15%;
+		padding-top: 5%;
+		border: 1px solid rgba(0,0,0,0,2);
+}
+	h2{
+		text-align: center;
+		margin-bottom: 20px;
+		color: rgba(0,0,0,0,2);
+	}
+	input{
+		display: block;
+		margin: 0 auto;
+	}
+	div{
+		background-color: #9cb4fe;
+		display: flex;
+		height: 10vh;
+	}
+
+	#boton{
+		width: 50%;
+		background-color: #9cb4fe;
+	}
+	
